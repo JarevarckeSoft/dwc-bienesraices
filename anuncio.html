@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bienes Raíces</title>
+    <link rel="stylesheet" href="build/css/app.css">
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="contenedor contenido-header">
+            <div class="barra">
+                <a href="/">
+                    <img src="build/img/logo.svg" alt="Logotipo de Bienes Raíces" class="logo-header">
+                </a>
+
+                <div class="mobile-menu">
+                    <img src="build/img/barras.svg" alt="icono menu responsive">
+                </div>
+
+                <div class="derecha">
+                    <img src="build/img/dark-mode.svg" alt="Boton de modo oscuro" class="dark-mode-boton">
+                    <nav class="navegacion">
+                        <a href="nosotros.html">Nosotros</a>
+                        <a href="anuncios.html">Anuncios</a>
+                        <a href="blog.html">Blog</a>
+                        <a href="contacto.html">Contacto</a>
+                    </nav>
+                </div>
+            </div> <!--.barra-->
+        </div>
+    </header>
+
+    <main class="contenedor seccion contenido-centrado">
+        <h1>Casa en venta frente al Bosque</h1>
+        <picture>
+            <source srcset="build/img/destacada.webp" type="image/webp">
+            <source srcset="build/img/destacada.jpg" type="image/jpeg">
+            <img loading="lazy" src="build/img/destacada.jpg" alt="imagen de la propiedad">
+        </picture>
+
+        <div class="resumen-propiedad">
+            <p class="precio">$3,000,000.00</p>
+            
+            <ul class="iconos-caracteristicas">
+                <li>
+                    <img class="icono" loading="lazy" src="build/img/icono_wc.svg" alt="icono wc">
+                    <p>3</p>
+                </li>
+                <li>
+                    <img class="icono" loading="lazy" src="build/img/icono_estacionamiento.svg" alt="icono estacionamiento">
+                    <p>3</p>
+                </li>
+                <li>
+                    <img class="icono" loading="lazy" src="build/img/icono_dormitorio.svg" alt="icono habitaciones">
+                    <p>4</p>
+                </li>
+            </ul>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum voluptas illo assumenda eligendi impedit, quasi unde deleniti culpa, natus fugiat earum laboriosam itaque nostrum maiores, magnam debitis soluta tenetur! Placeat. Curabitur ac tortor id dolor malesuada ornare. Cras vel condimentum enim, vel pharetra magna. Suspendisse potenti. Sed quis purus ut lacus posuere convallis. In ullamcorper venenatis ligula, at finibus lorem semper at. Curabitur faucibus urna ut ipsum porttitor, vel bibendum nunc facilisis. Aenean vehicula sem vitae sollicitudin molestie. Sed cursus tincidunt luctus. Aliquam vitae iaculis lorem. Sed vitae risus viverra mauris molestie placerat.</p>
+            <p>Nulla nisi purus, semper nec mattis quis, sodales ac est. Pellentesque posuere suscipit arcu eget vestibulum. Praesent luctus placerat porttitor. Vestibulum odio dui, placerat ut nisl in, vulputate imperdiet ante. Duis sed lectus efficitur, accumsan diam id, aliquam sapien. Nunc in est id velit maximus sollicitudin. Sed malesuada tortor ac enim luctus consequat. Morbi turpis orci, aliquam sed neque ut, finibus tincidunt enim. Aliquam porttitor ut metus nec fringilla. Donec porta, augue rhoncus efficitur faucibus, mauris neque pretium massa, sit amet dapibus elit libero a tortor. Cras at tincidunt nisl, a sodales justo. Phasellus magna urna, tempor et metus et, dignissim facilisis elit. Aenean efficitur arcu quis tincidunt dapibus. Praesent tincidunt lacinia ipsum.</p>
+        </div>
+    </main>
+
+    <footer class="footer seccion">
+        <div class="contenedor contenedor-footer">
+            <nav class="navegacion">
+                <a href="nosotros.html">Nosotros</a>
+                <a href="anuncios.html">Anuncios</a>
+                <a href="blog.html">Blog</a>
+                <a href="contacto.html">Contacto</a>
+            </nav>
+        </div>
+        <p class="copyright">&copy; 2023 Bienes Raíces. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="build/js/bundle.min.js"></script>
+</body>
+
+</html>
